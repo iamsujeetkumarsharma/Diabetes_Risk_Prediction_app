@@ -16,7 +16,7 @@ ENV/
 .vscode/
 
 # Data and model artifacts
-*.pkl
+# *.pkl
 *.png
 screenshots/
 

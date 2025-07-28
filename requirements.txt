@@ -5,4 +5,5 @@ seaborn
 scikit-learn
 shap
 joblib
-streamlit 
+streamlit
+plotly

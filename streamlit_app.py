@@ -146,7 +146,6 @@ with tabs[1]:
         st.code(report)
 
 with tabs[0]:
-    st.markdown('---')
     col1, col2 = st.columns(2)
     with col1:
         pregnancies = st.number_input('Pregnancies', min_value=mins[0], max_value=maxs[0], value=defaults[0], step=1)
@@ -161,7 +160,6 @@ with tabs[0]:
 
     user_input = [pregnancies, glucose, bp, skin, insulin, bmi, dpf, age]
 
-    st.markdown('---')
     predict_btn = st.button('🧠 Predict Risk', use_container_width=True)
     if predict_btn:
         with st.spinner('Analyzing your data...'):

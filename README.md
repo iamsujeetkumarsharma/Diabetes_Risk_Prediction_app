@@ -51,7 +51,4 @@ Early risk prediction enables:
 - Model and scaler are saved as `diabetes_model.pkl` and `scaler.pkl` for deployment.
 
 ## Authors
-- [Your Name]
-
----
-*For demo video or further explanation, see the project video link (if available).* 
+- [Sujeet Kumar]
